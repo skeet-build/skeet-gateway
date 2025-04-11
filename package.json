@@ -1,5 +1,5 @@
 {
-  "name": "@skeet/gateway",
+  "name": "@skeetbuild/gateway",
   "version": "2.6.0",
   "description": "Run MCP stdio servers over SSE or visa versa",
   "repository": {
@@ -17,7 +17,7 @@
   "type": "module",
   "bin": {
     "supergateway": "dist/index.js",
-    "@skeet/gateway": "dist/index.js"
+    "@skeetbuild/gateway": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
